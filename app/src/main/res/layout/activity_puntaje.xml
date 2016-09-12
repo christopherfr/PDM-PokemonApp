@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp"
+    android:paddingTop="20sp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="20sp"
+        android:background="#2F6DB4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5sp"
+            android:text="@string/tviPuntaje_texto"
+            android:textSize="12pt"
+            android:textColor="#FFCB05"/>
+
+        <TextView
+            android:id="@+id/tviPuntaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tviPuntaje"
+            android:textSize="10pt"
+            android:textColor="#FFCB05"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="#2F6DB4"
+        android:text="@string/butReintentar"
+        android:textSize="8pt"
+        android:textColor="#FFCB05"/>
+
+</LinearLayout>

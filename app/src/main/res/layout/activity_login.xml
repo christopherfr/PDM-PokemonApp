@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/pokemon_front"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="20sp">
+
+        <Button
+            android:id="@+id/butIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="15sp"
+            android:background="#2F6DB4"
+            android:drawableLeft="@drawable/ic_ingresar"
+            android:text="@string/ingresar"
+            android:textColor="#FFCB05"/>
+
+        <EditText
+            android:id="@+id/eteUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/butIngresar"
+            android:hint="@string/ingrese_usuario"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

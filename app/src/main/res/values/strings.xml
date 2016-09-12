@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PokemonApp</string>
+    <string name="ingrese_usuario">Ingrese usuario</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="pregunta_id">Pregunta %s</string>
+    <string name="pregunta_texto">Este es un texto de ejemplo</string>
+    <string name="respuesta">Ingrese su respuesta</string>
+    <string name="tviPuntaje_texto">Puntaje:</string>
+    <string name="tviPuntaje">123</string>
+    <string name="butReintentar">REINTENTAR</string>
+    <string name="logo_de_pokemon">Logo de Pokemon</string>
+</resources>
